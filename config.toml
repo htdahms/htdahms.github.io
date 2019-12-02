@@ -1,5 +1,0 @@
-baseURL = "https://blog.htdahms.com/"
-languageCode = "en-us"
-title = "Bits & Bytes"
-
-theme = "beautifulhugo"
