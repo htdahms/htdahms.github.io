@@ -1,5 +1,44 @@
 baseURL = "https://blog.htdahms.com/"
 languageCode = "en-us"
 title = "Bits & Bytes"
-
 theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Little bits of knowledge"
+  mainSections = ["post","posts"]
+  logo = "img/logo.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "2 January, 2006"
+  commit = true
+  rss = true
+#   comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+#   delayDisqus = true
+  showRelatedPosts = true
+
+  [Author]
+  name = "Heinrich Dahms"
+  website = "htdahms.com"
+  github = "htdahms"
+  twitter = "htdahms"
+  linkedin = "htdahms"
+#   stackoverflow = "users/362599/htdahms"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Resume"
+    url = "https://resume.htdahms.com/"
+    weight = 3
